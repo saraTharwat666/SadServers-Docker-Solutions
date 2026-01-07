@@ -1,38 +1,32 @@
-# 🛠️ DevOps Troubleshooting Lab: SadServers Solutions
+# 🛠️ Infrastructure & DevOps Troubleshooting Lab
 
-![Coding Journey](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJpZnZ3Ymc5ejR4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZ25vcmUmY3Q9Zw/L1R1TVr9WJCgZpUEnY/giphy.gif)
+![Infrastructure as Code](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3JmJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZ25vcmUmY3Q9Zw/u04b5LggXzO9uTSvSS/giphy.gif)
 
-## 🚀 Overview
-Welcome to my DevOps Portfolio! This repository is a documented log of real-world scenarios solved on the **SadServers** platform. Each challenge focuses on debugging, system administration, and infrastructure-as-code.
+## 📌 Executive Summary
+This repository serves as a professional technical log for resolving complex infrastructure failures and system misconfigurations. Each scenario is sourced from **SadServers** and focuses on real-world DevOps bottlenecks.
 
-The goal is not just to "fix" the problem, but to understand the **underlying root cause** and document the troubleshooting process professionally.
+The primary objective is to demonstrate a systematic approach to **Root Cause Analysis (RCA)** and infrastructure recovery.
 
 ---
 
-## 📂 Challenge Index
+## 📂 Troubleshooting Registry
 
-| Task Name | Level | Tech Stack | Solution Link |
+| Scenario | Difficulty | Tech Stack | Documentation |
 | :--- | :--- | :--- | :--- |
-| **Helsingør** | Medium | Docker, PostgreSQL, Replication | [View Solution](./Helsingor-Postgres-Replication/) |
-| **Salta** | Medium | Docker, Node.js, Networking | [View Solution](./Salta-Nodejs-App/) |
-| **Saint John** | Easy | Linux, System Logs, PIDs | [View Solution](./Saint-John-Log-Killer/) |
+| **Helsingør** | Medium | PostgreSQL, Docker-Compose, Replication | [Analysis & Fix](./Helsingor-Postgres-Replication/) |
+| **Salta** | Medium | Dockerization, Node.js, Port Mapping | [Analysis & Fix](./Salta-Nodejs-App/) |
+| **Saint John** | Easy | Linux Kernel, Process Mgmt, Log Rotation | [Analysis & Fix](./Saint-John-Log-Killer/) |
 
 ---
 
-## 🧠 My Troubleshooting Workflow
-![Debugging Process](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJpZnZ3Ymc5ejR4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZ25vcmUmY3Q9Zw/26u4lOMA8JKSnL9Uk/giphy.gif)
+## 🛠️ Tech Stack & Methodologies
+![Docker Workflow](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmtpZ3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3R6Z3JmJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZ25vcmUmY3Q9Zw/3o7TKVUn7iM8FMEU24/giphy.gif)
 
-For every challenge in this repository, you will find:
-1. **Task Description**: The original problem statement.
-2. **Investigation**: How I used logs, system commands, and tools to find the bug.
-3. **Resolution**: Step-by-step fix including corrected configuration files (`Dockerfile`, `docker-compose.yml`, etc.).
-
----
-
-## 🛠️ Tools Frequently Used
-- **Linux**: `lsof`, `journalctl`, `fuser`, `systemctl`
-- **Docker**: `docker logs`, `docker inspect`, `docker-compose`
-- **Databases**: `psql`, replication slots, WAL management
+### Core Competencies Demonstrated:
+* **Container Orchestration:** Debugging Docker daemon, networking, and volume persistence.
+* **Database Reliability:** Configuring Physical Replication slots and WAL parameters in PostgreSQL.
+* **System Internal:** Investigating file descriptors, PID tracking, and disk I/O bottlenecks.
+* **Log Analysis:** Utilizing `journalctl`, `docker logs`, and `lsof` for rapid incident response.
 
 ---
-*Documented with precision by a DevOps Engineer in the making.* ✨
+**Maintained by a DevOps Engineer focused on System Stability and Automation.**
