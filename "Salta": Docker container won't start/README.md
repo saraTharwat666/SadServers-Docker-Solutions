@@ -51,6 +51,7 @@ Test the running application:
 
 curl localhost:8888
 # Response: Hello World!
+```
 
 
 
