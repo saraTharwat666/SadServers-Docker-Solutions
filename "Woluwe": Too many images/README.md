@@ -1,6 +1,6 @@
 # 🔍 Scenario: Woluwe - Finding the Golden Image
 
-![Docker Running](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJ1d2R2NXR4aXFqN3VqajZ1eG80M3R4dXNhY2ZzM3B6N2RjYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7TKtnuHOHHUjR38Y/giphy.gif)
+![Docker Whale](https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif)
 
 ## 📝 Challenge Description
 A CI/CD pipeline generated numerous Docker images, but a developer introduced a typo (`index.htmlz`) in almost all of them. The goal is to identify the single correct image that uses the proper `index.html` instruction, tag it as `prod`, and deploy it.
